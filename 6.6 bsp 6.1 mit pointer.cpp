@@ -43,6 +43,8 @@ s_spieler nameabfragen (s_spieler *pspieler)
 	cout << "Name des Spielers: \n";
 	cin.get(pspieler->name,29);
 	
+// 	der "->" operator wird hier bei zeigern verwendet.	
+	
 	cout << "Punkte eingeben: \n";
 	cin  >> pspieler->punkte; 
 	
